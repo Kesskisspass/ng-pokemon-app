@@ -29,4 +29,5 @@ export class BorderCardDirective {
   setBorder(color: string){
     this.el.nativeElement.style.border = `solid 4px ${color}`;
   }
+
 }
