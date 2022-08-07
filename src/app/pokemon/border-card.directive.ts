@@ -1,6 +1,7 @@
 import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
 @Directive({
+  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: '[pkmnBorderCard]'
 })
 export class BorderCardDirective {
