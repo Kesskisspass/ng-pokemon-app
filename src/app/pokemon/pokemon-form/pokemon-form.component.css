@@ -5,3 +5,7 @@
 .ng-invalid:not(form) {
   border-left: 5px solid #A94442;
 }
+
+#name, #hp, #cp {
+  padding-left: 5px;
+}
